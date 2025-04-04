@@ -1,0 +1,5 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "commentTranslate.targetLanguage": "uz",
+  "i18n-ally.localesPaths": ["i18n", "i18n/locales"]
+}

@@ -1,0 +1,13 @@
+html {
+	scroll-behavior: smooth;
+	font-family: "Montserrat", sans-serif;
+}
+
+:root {
+	--index: calc(1vw + 1vh);
+	font-size: calc(max(var(--index) * 0.545, var(16px)));
+}
+
+.text-title {
+	@apply md:text-[2.5rem] md:text-3xl sm:text-2xl font-bold md:leading-[3.75rem] text-xl;
+}

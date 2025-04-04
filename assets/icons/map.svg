@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 40 40" width="40" height="40">
+    <path
+        d="M20 3.75c-6.211 0 -11.25 4.796 -11.25 10.703 0 6.797 7.5 17.568 10.254 21.288a1.232 1.232 0 0 0 1.992 0C23.75 32.023 31.25 21.255 31.25 14.453c0 -5.907 -5.039 -10.703 -11.25 -10.703"
+        fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
+    <path cx="256" cy="192" r="48" fill="none" stroke="white" stroke-linecap="round"
+        stroke-linejoin="round" stroke-width="2.5"
+        d="M23.75 15A3.75 3.75 0 0 1 20 18.75A3.75 3.75 0 0 1 16.25 15A3.75 3.75 0 0 1 23.75 15z" />
+</svg>
