@@ -1,6 +1,6 @@
 version: 1
 frontend:
-  phases:
+node -e "const fs=require('fs');const pkg=JSON.parse(fs.readFileSync('package.json'));pkg.scripts=pkg.scripts||{};pkg.scripts.build='nuxt build';fs.writeFileSync('package.json',JSON.stringify(pkg,null,2));fs.writeFileSync('.nvmrc','18.20.6');console.log('✅ build script and .nvmrc set');" && git add package.json .nvmrc && git commit -m "Fix: add build script and set Node.js version for Amplify" && git push  phases:
     preBuild:
       commands:
         - npm ci

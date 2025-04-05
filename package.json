@@ -34,6 +34,7 @@
     "socket.io-client": "^4.7.5",
     "swiper": "^11.0.7",
     "tar-fs": "^3.0.8",
+    "unhead": "^1.8.6",
     "v-calendar": "^3.1.2",
     "vite": "^6.2.5",
     "vite-svg-loader": "^5.1.0",
