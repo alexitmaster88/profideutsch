@@ -21,3 +21,8 @@ logs
 # Local env files
 .env
 !.env.example
+
+# amplify
+.amplify
+amplify_outputs*
+amplifyconfiguration*

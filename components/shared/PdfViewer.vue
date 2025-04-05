@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
-import { VuePdf, createLoadingTask } from "vue3-pdfjs";
+import { VuePdf } from "vue3-pdfjs";
 import type { PDFDocumentProxy } from "pdfjs-dist/types/src/display/api";
 
 // Define the props
@@ -16,7 +16,7 @@ const props = defineProps<{
 const numOfPages = ref(0);
 
 onMounted(() => {
-	const loadingTask = createLoadingTask(props.pdfSrc);
+	// const loadingTask = createLoadingTask(props.pdfSrc);
 	loadingTask.promise.then((pdf: PDFDocumentProxy) => {
 		numOfPages.value = pdf.numPages;
 	});
