@@ -15,6 +15,7 @@
     "@babel/helpers": "^7.27.0",
     "@babel/runtime": "^7.27.0",
     "@headlessui/vue": "^1.7.19",
+    "@nuxt/kit": "^3.16.2",
     "@pinia/nuxt": "^0.5.1",
     "@popperjs/core": "^2.11.8",
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
